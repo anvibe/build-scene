@@ -1,0 +1,383 @@
+{
+  "scene": {
+    "id": "scene_mqm2p42c2fs6k2",
+    "name": "Untitled Scene",
+    "environment": {
+      "background": "#0a0a0a",
+      "gridColor": "#2a2a2a",
+      "fog": false,
+      "ambientIntensity": 0.45,
+      "hdri": "studio",
+      "hdriIntensity": 0.3,
+      "hdriRotation": 28,
+      "showHdriBackground": false
+    },
+    "objects": [
+      {
+        "id": "obj_mqm2p42c2a1ttv",
+        "name": "Game",
+        "type": "group",
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "components": [
+          {
+            "id": "cmp_mqm2p42c29tzvp",
+            "type": "Transform",
+            "enabled": true,
+            "config": {}
+          }
+        ],
+        "children": [
+          {
+            "id": "obj_mqm2p42c2cq4nx",
+            "name": "Environment",
+            "type": "group",
+            "transform": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "components": [
+              {
+                "id": "cmp_mqm2p42c2b25q8",
+                "type": "Transform",
+                "enabled": true,
+                "config": {}
+              }
+            ],
+            "children": [
+              {
+                "id": "obj_mqm2p42c25zvxa",
+                "name": "Ground",
+                "type": "mesh",
+                "primitive": "plane",
+                "color": "#222222",
+                "transform": {
+                  "position": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "scale": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                "components": [
+                  {
+                    "id": "cmp_mqm2p42c231h78",
+                    "type": "Transform",
+                    "enabled": true,
+                    "config": {}
+                  },
+                  {
+                    "id": "cmp_mqm2p42c244sbs",
+                    "type": "MeshRenderer",
+                    "enabled": true,
+                    "config": {
+                      "castShadow": true,
+                      "receiveShadow": true,
+                      "material": "Default"
+                    }
+                  }
+                ],
+                "children": [],
+                "visible": false,
+                "expanded": true
+              },
+              {
+                "id": "obj_mqm2p42c28dxfr",
+                "name": "Directional Light",
+                "type": "light",
+                "light": "directional",
+                "color": "#ffffff",
+                "transform": {
+                  "position": [
+                    6,
+                    12,
+                    6
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "scale": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                "components": [
+                  {
+                    "id": "cmp_mqm2p42c26f1om",
+                    "type": "Transform",
+                    "enabled": true,
+                    "config": {}
+                  },
+                  {
+                    "id": "cmp_mqm2p42c2733z7",
+                    "type": "Light",
+                    "enabled": true,
+                    "config": {
+                      "intensity": 1,
+                      "kind": "directional",
+                      "width": 4,
+                      "height": 2
+                    }
+                  }
+                ],
+                "children": [],
+                "visible": true,
+                "expanded": true
+              }
+            ],
+            "visible": true,
+            "expanded": true
+          },
+          {
+            "id": "obj_mqm2p42c2evo6b",
+            "name": "GameManager",
+            "type": "empty",
+            "transform": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            "components": [
+              {
+                "id": "cmp_mqm2p42c2drkfr",
+                "type": "Transform",
+                "enabled": true,
+                "config": {}
+              }
+            ],
+            "children": [],
+            "visible": true,
+            "expanded": true
+          }
+        ],
+        "visible": true,
+        "expanded": true
+      },
+      {
+        "id": "obj_mqm2scm92oy8jb",
+        "name": "build",
+        "type": "model",
+        "color": "#d4d4d8",
+        "assetUrl": "assets/obj_mqm2scm92oy8jb.glb",
+        "assetId": "a_mqm2sclw2jwfzz",
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            10,
+            10,
+            10
+          ]
+        },
+        "components": [
+          {
+            "id": "cmp_mqm2scm92mt1l5",
+            "type": "Transform",
+            "enabled": true,
+            "config": {}
+          },
+          {
+            "id": "cmp_mqm2scm92nqb1i",
+            "type": "MeshRenderer",
+            "enabled": true,
+            "config": {
+              "castShadow": true,
+              "receiveShadow": true,
+              "material": "Default"
+            }
+          }
+        ],
+        "children": [],
+        "visible": true,
+        "expanded": true
+      },
+      {
+        "id": "obj_mqm2sjy22wb1tu",
+        "name": "Camera 3D",
+        "type": "camera",
+        "transform": {
+          "position": [
+            7.79,
+            2.24,
+            7.03
+          ],
+          "rotation": [
+            -7.35,
+            42.31,
+            4.96
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "components": [
+          {
+            "id": "cmp_mqm2sjy22umwb0",
+            "type": "Transform",
+            "enabled": true,
+            "config": {}
+          },
+          {
+            "id": "cmp_mqm2sjy22vov6o",
+            "type": "Camera",
+            "enabled": true,
+            "config": {
+              "fov": 60,
+              "near": 0.1,
+              "far": 1000
+            }
+          }
+        ],
+        "children": [],
+        "visible": true,
+        "expanded": true
+      },
+      {
+        "id": "obj_mqm2vei83tnzuj",
+        "name": "Area Light",
+        "type": "light",
+        "light": "area",
+        "color": "#ffffff",
+        "transform": {
+          "position": [
+            0,
+            6.97,
+            0
+          ],
+          "rotation": [
+            -90,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "components": [
+          {
+            "id": "cmp_mqm2vei83r5zmd",
+            "type": "Transform",
+            "enabled": true,
+            "config": {}
+          },
+          {
+            "id": "cmp_mqm2vei83sfat2",
+            "type": "Light",
+            "enabled": true,
+            "config": {
+              "intensity": 3,
+              "kind": "area",
+              "width": 4,
+              "height": 2
+            }
+          }
+        ],
+        "children": [],
+        "visible": true,
+        "expanded": true
+      }
+    ]
+  },
+  "materialRegistry": {
+    "a_mqm2sclw2jwfzz_Material.001": {
+      "color": "#ffffff",
+      "metalness": 0,
+      "roughness": 1
+    }
+  },
+  "renderSettings": {
+    "preset": "custom",
+    "ssao": true,
+    "ssaoIntensity": 2.7,
+    "bloom": true,
+    "bloomIntensity": 0.7,
+    "vignette": true,
+    "vignetteStrength": 0.55,
+    "saturation": 0,
+    "exposure": 0,
+    "contrast": 0.01,
+    "brightness": 0,
+    "dof": false,
+    "dofFocusDistance": 5,
+    "dofFocalLength": 2,
+    "dofBokehScale": 3,
+    "pixelation": false,
+    "pixelationGranularity": 6,
+    "scanline": false,
+    "scanlineDensity": 1.25,
+    "chromaticAberration": false,
+    "chromaticAberrationOffset": 0.002
+  },
+  "scripts": [],
+  "animationShots": [],
+  "animationLoop": "none",
+  "settings": {
+    "physics": true,
+    "gravity": -9.81,
+    "targetPlatform": "web"
+  }
+}
