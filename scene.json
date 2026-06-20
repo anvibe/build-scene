@@ -6,10 +6,10 @@
       "background": "#0a0a0a",
       "gridColor": "#2a2a2a",
       "fog": false,
-      "ambientIntensity": 0.45,
+      "ambientIntensity": 0.35,
       "hdri": "studio",
-      "hdriIntensity": 0.3,
-      "hdriRotation": 28,
+      "hdriIntensity": 0.15,
+      "hdriRotation": 40,
       "showHdriBackground": false
     },
     "objects": [
@@ -82,7 +82,7 @@
                 "transform": {
                   "position": [
                     0,
-                    0,
+                    -0.02,
                     0
                   ],
                   "rotation": [
@@ -115,7 +115,7 @@
                   }
                 ],
                 "children": [],
-                "visible": false,
+                "visible": true,
                 "expanded": true
               },
               {
@@ -220,7 +220,7 @@
           ],
           "rotation": [
             0,
-            0,
+            56.43,
             0
           ],
           "scale": [
@@ -257,14 +257,14 @@
         "type": "camera",
         "transform": {
           "position": [
-            8.26,
-            2.46,
-            8.21
+            7.27,
+            2.33,
+            9.35
           ],
           "rotation": [
-            -5.94,
-            38.44,
-            3.7
+            -3.35,
+            32.46,
+            1.8
           ],
           "scale": [
             1,
@@ -329,7 +329,7 @@
             "type": "Light",
             "enabled": true,
             "config": {
-              "intensity": 3,
+              "intensity": 8,
               "kind": "area",
               "width": 4,
               "height": 2
@@ -375,7 +375,7 @@
             "type": "Light",
             "enabled": true,
             "config": {
-              "intensity": 0.5,
+              "intensity": 2,
               "kind": "area",
               "width": 4,
               "height": 2
@@ -400,7 +400,7 @@
     "ssao": true,
     "ssaoIntensity": 2.7,
     "bloom": true,
-    "bloomIntensity": 0.7,
+    "bloomIntensity": 0.15,
     "vignette": true,
     "vignetteStrength": 0.55,
     "saturation": 0,
